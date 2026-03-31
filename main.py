@@ -10,7 +10,7 @@ from flask import Flask, request
 # ================= ⚡ SETTINGS (WEBHOOK) =================
 # Naya Token Update Kar Diya Gaya Hai
 TOKEN = '8677737410:AAGJwDnPMsh76dx0Q-BNqTLybHCXDiMxu78'
-WEBHOOK_URL = 'https://telegram-bot-1-1-n41y.onrender.com' # Render Link
+WEBHOOK_URL = 'https://telegram-bot-3-mo35.onrender.com' # Render Link
 
 # Webhook me internal threading ki zaroorat nahi hoti, Flask handle karta hai
 bot = telebot.TeleBot(TOKEN, parse_mode='HTML')
